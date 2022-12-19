@@ -1,0 +1,48 @@
+/*--------------------НАШІ ПЕРЕВАГИ--------------------  */
+.benefits-title {
+    margin-top: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.benefits-link {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--team-bg-color);
+    cursor: auto;
+}
+
+.benefits-item {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.benefits-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: var(--secondary-text-color);
+    line-height: 1.71;
+}

@@ -1,0 +1,28 @@
+/*--------------------ЗВОРОТНІЙ ЗВ'ЯЗОК--------------------  */
+.e-mail,
+.phone {
+    color: var(--secondary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+
+    transition: color var(--time-duration) var(--time-function),
+        fill var(--time-duration) var(--time-function);
+}
+
+.e-mail:hover,
+.phone:hover,
+.e-mail:focus,
+.phone:focus {
+    color: var(--accent-color);
+}
+
+.icon-mail {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.icon-phone {
+    margin-right: 10px;
+    fill: currentColor;
+}

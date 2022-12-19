@@ -1,0 +1,62 @@
+/*--------------------НАВІГАЦІЯ САЙТУ--------------------  */
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    margin-left: 95px;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    transition: color var(--time-duration) var(--time-function);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    position: relative;
+    color: var(--accent-color);
+}
+
+.site-nav .link.current::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}
+
+.feedback-nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.feedback-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
